@@ -35,13 +35,13 @@ class PHP85Test extends TestCase
     {
         $rules = PHP85::strictRules();
 
-        self::assertNotEmpty($rules);
+        self::assertSame(['syntax' => 'short'], $rules['array_syntax'] ?? null);
         self::assertTrue($rules[SiblingStatementSpacingFixer::NAME] ?? null);
     }
 
     #[Test()]
     public function testTomasChocholaFileHeaderRules(): void
     {
-        self::assertNotEmpty(PHP85::tomasChocholaFileHeaderRules());
+        self::assertArrayHasKey('header_comment', PHP85::tomasChocholaFileHeaderRules());
     }
 }
