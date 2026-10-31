@@ -354,10 +354,6 @@ final class SiblingStatementSpacingFixer implements ConfigurableFixerInterface, 
         return self::NAME;
     }
 
-    /**
-     * Must run after `no_extra_blank_lines` and `blank_line_before_statement`, so this fixer can be the final
-     * executable-sibling spacing authority without replacing the more specific built-in rules.
-     */
     #[Override()]
     public function getPriority(): int
     {
