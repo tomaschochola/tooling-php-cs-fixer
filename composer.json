@@ -62,7 +62,7 @@
         }
     ],
     "require": {
-        "friendsofphp/php-cs-fixer": "^3.92",
+        "friendsofphp/php-cs-fixer": "^3.95.27",
         "php": "^8.5.0"
     },
     "require-dev": {
@@ -70,7 +70,7 @@
         "ext-pcntl": "*",
         "ext-xdebug": "*",
         "ext-zip": "*",
-        "phpunit/phpunit": "^13.0",
+        "phpunit/phpunit": "^13.4.5",
         "roave/security-advisories": "dev-latest",
         "tomaschochola/tooling-phpstan": "dev-main"
     },
