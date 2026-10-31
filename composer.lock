@@ -6524,27 +6524,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tomaschochola/tooling-phpstan.git",
-                "reference": "7cf6d6fb0ebbd12affae711633f725504b5c30d2"
+                "reference": "488fa47d1d6a901ae057331b39fe2ba741097c36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tomaschochola/tooling-phpstan/zipball/7cf6d6fb0ebbd12affae711633f725504b5c30d2",
-                "reference": "7cf6d6fb0ebbd12affae711633f725504b5c30d2",
+                "url": "https://api.github.com/repos/tomaschochola/tooling-phpstan/zipball/488fa47d1d6a901ae057331b39fe2ba741097c36",
+                "reference": "488fa47d1d6a901ae057331b39fe2ba741097c36",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.5.0",
-                "phpstan/phpstan": "^2.1",
-                "phpstan/phpstan-beberlei-assert": "^2.0",
-                "phpstan/phpstan-deprecation-rules": "^2.0",
-                "phpstan/phpstan-dibi": "^2.0",
-                "phpstan/phpstan-doctrine": "^2.0",
-                "phpstan/phpstan-mockery": "^2.0",
-                "phpstan/phpstan-nette": "^2.0",
-                "phpstan/phpstan-phpunit": "^2.0",
-                "phpstan/phpstan-strict-rules": "^2.0",
-                "phpstan/phpstan-symfony": "^2.0",
-                "phpstan/phpstan-webmozart-assert": "^2.0"
+                "phpstan/phpstan": "^2.3.4",
+                "phpstan/phpstan-beberlei-assert": "^2.0.2",
+                "phpstan/phpstan-deprecation-rules": "^2.0.5",
+                "phpstan/phpstan-dibi": "^2.0.0",
+                "phpstan/phpstan-doctrine": "^2.1.0",
+                "phpstan/phpstan-mockery": "^2.0.0",
+                "phpstan/phpstan-nette": "^2.0.15",
+                "phpstan/phpstan-phpunit": "^2.1.1",
+                "phpstan/phpstan-strict-rules": "^2.1.0",
+                "phpstan/phpstan-symfony": "^2.1.1",
+                "phpstan/phpstan-webmozart-assert": "^2.0.0"
             },
             "require-dev": {
                 "ext-intl": "*",
@@ -6586,7 +6586,7 @@
                     "url": "https://github.com/sponsors/tomaschochola"
                 }
             ],
-            "time": "2026-10-31T14:01:55+00:00"
+            "time": "2026-10-31T16:07:23+00:00"
         }
     ],
     "aliases": [],
